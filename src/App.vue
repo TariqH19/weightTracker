@@ -271,4 +271,23 @@ form input[type="submit"]:hover {
   color: #888;
   font-style: italic;
 }
+
+@media screen and (max-width: 375px) {
+  .current {
+    width: 120px;
+    height: 120px;
+  }
+
+  .current span {
+    font-size: 1.5em;
+  }
+
+  .canvas-box {
+    padding: 0.5rem;
+  }
+
+  .weight-history ul li {
+    font-size: 0.9rem;
+  }
+}
 </style>
